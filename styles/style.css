@@ -320,7 +320,7 @@ label {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 .badge-primary {
@@ -340,6 +340,7 @@ main {
   display: grid;
   -ms-grid-columns: 1.2fr 2fr;
       grid-template-columns: 1.2fr 2fr;
+  width: 100vw;
 }
 
 @media (max-width: 925px) {
@@ -666,6 +667,7 @@ main {
 }
 
 .main__right--news--item {
+  margin-top: 2rem;
   border-radius: 6px;
   background: white;
   -webkit-box-shadow: 0 25px 20px -21px rgba(0, 0, 0, 0.57);
@@ -745,7 +747,7 @@ main {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 798px) {
   .main__right {
     display: none;
   }

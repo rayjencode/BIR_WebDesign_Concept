@@ -53,12 +53,18 @@ closeNavSidebar.addEventListener('click', () => {
 
 function reportWindowSize() {
     if (window.innerWidth < 800) {
-        mainRight.style.display = 'none';
-        mainLeft.style.display = 'flex';
+        // mainRight.style.display = 'none';
+        // mainLeft.style.display = 'flex';
         showNewsSideBar.style.transform = 'translate(100%)';
         showNavSidebar.style.transform = 'translateX(100%)';
-    } else {
-        mainRight.style.display = 'flex';
+    }
+    // else {
+    // mainRight.style.display = 'flex';
+
+    // }
+
+    if (window.innerWidth > 800) {
+        mainLeft.style.display = 'flex';
         showNewsSideBar.style.transform = 'translate(100%)';
     }
 }

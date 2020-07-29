@@ -1,6 +1,7 @@
 main {
     display: grid;
     grid-template-columns: 1.2fr 2fr;
+    width: 100vw;
 
     @media (max-width: 925px) {
         grid-template-columns: 1fr 1fr;
@@ -259,6 +260,7 @@ main {
             &--item {
                 // max-width: 250px;
                 // min-width: 150px;
+                margin-top: 2rem;
                 border-radius: 6px;
                 background: white;
                 box-shadow: 0 25px 20px -21px rgba(0, 0, 0, 0.57);
@@ -323,7 +325,7 @@ main {
             }
         }
 
-        @media (max-width: 800px) {
+        @media (max-width: 798px) {
             display: none;
         }
     }
