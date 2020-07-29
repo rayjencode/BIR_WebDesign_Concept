@@ -64,3 +64,8 @@ function reportWindowSize() {
 }
 
 window.onresize = reportWindowSize;
+
+// const label = document.querySelectorAll('label');
+// label.forEach((label) => {
+//     label.style.color = 'white';
+// });

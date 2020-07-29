@@ -174,7 +174,7 @@ main {
                 rgba($secondary, 1),
                 rgba($primary, 0.5)
             ),
-            url('/assets/bg-3.jpg');
+            url('/assets/bg-33.webp');
         background-size: cover;
         background-position: top;
         padding: 3rem 4rem 1rem 4rem;
@@ -301,6 +301,7 @@ main {
                 &--content {
                     padding: 1rem;
                     &--title {
+                        font-size: 1.4rem;
                         margin-top: 1rem;
                         color: rgb(39, 39, 39);
                     }

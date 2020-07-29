@@ -30,6 +30,25 @@ ul {
   list-style: none;
 }
 
+label {
+  outline: none;
+  border: none;
+  width: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.label {
+  outline: none;
+  border: none;
+  width: 0;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
 .mr-1 {
   margin-right: 10px;
 }
@@ -311,7 +330,7 @@ ul {
 }
 
 .badge-success {
-  background: #649b26;
+  background: #517e1e;
   padding: 3px 11px;
   border-radius: 50px;
 }
@@ -531,8 +550,8 @@ main {
   width: 100%;
   height: 100%;
   color: white;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ee8138), to(rgba(203, 25, 21, 0.5))), url("/assets/bg-3.jpg");
-  background-image: linear-gradient(to right bottom, #ee8138, rgba(203, 25, 21, 0.5)), url("/assets/bg-3.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ee8138), to(rgba(203, 25, 21, 0.5))), url("/assets/bg-33.webp");
+  background-image: linear-gradient(to right bottom, #ee8138, rgba(203, 25, 21, 0.5)), url("/assets/bg-33.webp");
   background-size: cover;
   background-position: top;
   padding: 3rem 4rem 1rem 4rem;
@@ -701,6 +720,7 @@ main {
 }
 
 .main__right--news--item--content--title {
+  font-size: 1.4rem;
   margin-top: 1rem;
   color: #272727;
 }
