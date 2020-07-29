@@ -65,8 +65,13 @@ main {
                 width: 100%;
                 font-size: 14px;
                 font-family: 'Poppins', sans-serif;
+                outline: none;
                 &::placeholder {
                     font-family: 'Poppins', sans-serif;
+                }
+                &::focus {
+                    border: none;
+                    outline: none;
                 }
             }
             &--group {

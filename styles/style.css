@@ -427,6 +427,7 @@ main {
   width: 100%;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
+  outline: none;
 }
 
 .main__left--form--input::-webkit-input-placeholder {
@@ -443,6 +444,11 @@ main {
 
 .main__left--form--input::placeholder {
   font-family: 'Poppins', sans-serif;
+}
+
+.main__left--form--input::focus {
+  border: none;
+  outline: none;
 }
 
 .main__left--form--group {
